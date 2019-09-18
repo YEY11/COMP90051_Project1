@@ -71,4 +71,4 @@ Due to the limitation of time, we have some ideas which might be worthy but have
 * Using [SMOTE](https://arxiv.org/pdf/1106.1813.pdf) algorithm to deal with the unbalanced training dataset.
 * Hyper-parameter optimization based on grid search technique.
 * Adjusting the weight of penalty item. Giving large value when the prediction for minority class is wrong and small value when the  prediction for majority class is wrong.
-* Some more complicated ensemble learning methods which can be found [here](https://mlwave.com/kaggle-ensembling-guide/). 
+* Some more complicated but powerful ensemble learning methods which can be found [here](https://mlwave.com/kaggle-ensembling-guide/).
