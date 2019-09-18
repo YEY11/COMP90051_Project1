@@ -7,6 +7,13 @@ Authorship attribution is a common task in Natural Language Processing (NLP) app
 
 <img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/kaggle.png" alt="Kaggle" width="70%">
 
-The task here is to predict authors of test tweets from among a very large number of authors found in training tweets. In this project, we attempt to find an appropriate solution for such a massively multiclass classification task from a [Kaggle Competition](https://www.kaggle.com/c/whodunnit/leaderboard) based on various machine learning techniques.
+In this project, the task is to predict authors of test tweets from among a very large number of authors found in training tweets, which comes from an in-class [Kaggle Competition](https://www.kaggle.com/c/whodunnit/leaderboard). Our works include data preprocessing, feature engineering, model selection and ensemble models etc. For more details, please check the [project specifications](https://github.com/Andy-TK/COMP90051_Project1/blob/master/Project%20specifications.pdf) and [project report](https://github.com/Andy-TK/COMP90051_Project1/blob/master/Project%20Report%20Team%2052.pdf).
 
-#### 2. 
+#### 2. Data
+The `Data` folder contains both original data and processed data.
+#### 2.1. Original Data
+`train_tweets.txt`
+> _The original training dataset which contains 328932 tweets posted by 9297 users._
+
+<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Data/01_original_train.png" alt="original training data" width="70%">
+
