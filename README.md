@@ -17,3 +17,26 @@ The `Data` folder contains both original data and processed data.
 
 <img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Data/01_original_train.png" alt="original training data" width="70%">
 
+`test_tweets_unlabeled.txt`
+> _The original test dataset which contains 35437 tweets posted by the same user group in the training dataset._
+
+<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Data/02_original_test.png" alt="original training data" width="70%">
+
+#### 2.2. Processed Data
+The `preprocess.py` in the `Code` folder transfered the original data into processed data.
+
+<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Data/03_processed_data.png" alt="original training data" width="70%">
+
+`all_clean_data.csv`
+> _The entire processed training dataset which contains 328932 tweets posted by 9297 users._
+
+`test_clean_data.csv`
+> _The entire processed test dataset which contains 35437 tweets posted by the same user group in the training dataset._
+
+`train.csv`
+> _The random 9/10 processed training dataset used for partial training dataset._
+
+`train.csv`
+> _The random 1/10 processed training dataset used for partial test dataset._
+
+
