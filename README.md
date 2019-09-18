@@ -46,5 +46,4 @@ The `preprocess.py` in the `Code` folder transfered the original data into proce
 
 Also, it provides some distribution plots for data:
 
-<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/Figure_2_numplot.png" alt="numplot" width="50%">
-<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/Figure_1_boxplot.png" alt="boxplot" width="50%">
+<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/Figure_2_numplot.png" alt="numplot" width="50%"><img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/Figure_1_boxplot.png" alt="boxplot" width="50%">
