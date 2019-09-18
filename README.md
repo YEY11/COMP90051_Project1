@@ -55,7 +55,7 @@ Five machine learning/deep learning models based on [_scikit-learn_](https://sci
 * `knn1.py` - KNN Model.
 * `mlr.py` - Multiple Logistic Regression Model.
 * `svc.py` - Linear Support Vector Classifier Model.
-* `LSTM` - LSTM Model.
+* `lstm.py` - LSTM Model.
 
 #### 3.3. Ensemble Learning
 `ensemble.py`
