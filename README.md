@@ -23,7 +23,7 @@ The `Data` folder contains both original data and processed data.
 <img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Data/02_original_test.png" alt="original training data" width="70%">
 
 #### 2.2. Processed Data
-The `preprocess.py` in the `Code` folder transfered the original data into processed data.
+The `preprocess.py` in the `Code` folder transfered the original data into processed data. For example:
 
 <img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Data/03_processed_data.png" alt="original training data" width="70%">
 
@@ -39,4 +39,12 @@ The `preprocess.py` in the `Code` folder transfered the original data into proce
 `train.csv`
 > _The random 1/10 processed training dataset used for partial test dataset._
 
+#### 3. Code
+#### 3.1. Data Preprcessing and Feature Engineering
+`preprocess.py`
+> _is used for data preprocessing including removing non-English characters (e.g. emoticons and punctuations) and stopwords, as well as word tokenization and lemmatization based on **nltk** package._
 
+Also, it provides some distribution plots for data:
+
+<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/Figure_2_numplot.png" alt="numplot" width="50%">
+<img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/Figure_1_boxplot.png" alt="boxplot" width="50%">
