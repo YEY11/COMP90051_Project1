@@ -1,4 +1,4 @@
-### COMP90051 Project1: Authorship Attribution with Limited Text on Twitter
+### COMP90051 Project 1: Authorship Attribution with Limited Text on Twitter
 
 This is the Project 1 for COMP90051 (Statistical Machine Learning) from the University of Melbourne.
 
