@@ -2,14 +2,14 @@
 
 This is the Project 1 for COMP90051 (Statistical Machine Learning) from the University of Melbourne.
 
-#### 1. What is the task? 
+### 1. What is the task? 
 Authorship attribution is a common task in Natural Language Processing (NLP) applications, such as academic plagiarism detection and potential terrorist suspects identification on social media. As for the traditional author classification task, the training dataset usually includes the entire corpus of the author’s published work, which contains a large number of examples of standard sentences that might reflect the writing style of the author. However, when it comes to the limited text on social media like Twitter, it brings some challenging problems, such as informal expressions, a huge number of labels, unbalanced dataset and extremely limited information related to identity.
 
 <img src="https://github.com/Andy-TK/COMP90051_Project1/blob/master/Result/kaggle.png" alt="Kaggle" width="70%">
 
 In this project, the task is to predict authors of test tweets from among a very large number of authors found in training tweets, which comes from an in-class [Kaggle Competition](https://www.kaggle.com/c/whodunnit/leaderboard). Our works include data preprocessing, feature engineering, model selection and ensemble models etc. For more details, please check the [project specifications](https://github.com/Andy-TK/COMP90051_Project1/blob/master/Project%20specifications.pdf) and [project report](https://github.com/Andy-TK/COMP90051_Project1/blob/master/Project%20Report%20Team%2052.pdf).
 
-#### 2. Data
+### 2. Data
 The `Data` folder contains both original data and processed data.
 #### 2.1. Original Data
 `train_tweets.txt`
@@ -39,7 +39,7 @@ The `preprocess.py` in the `Code` folder transfered the original data into proce
 `train.csv`
 > _The random 1/10 processed training dataset used for partial test dataset._
 
-#### 3. Code
+### 3. Code
 #### 3.1. Data Preprcessing and Feature Engineering
 `preprocess.py`
 > _is used for data preprocessing including removing non-English characters (e.g. emoticons and punctuations) and stopwords, as well as word tokenization and lemmatization based on [nltk](https://www.nltk.org/) package. Also, it provides some distribution plots for data based on [matplotlib](https://matplotlib.org/) package._
@@ -66,7 +66,7 @@ Considering the individual performance of the previous models, we try three diff
 * linearSVC + MultinomialNB + MLR
 * linearSVC + MultinomialNB + MLR + KNN(K=1).
 
-#### 4. Future Works
+### 4. Future Works
 Due to the limitation of time, we have some ideas which might be worthy but have not yet to try:
 * Using [SMOTE](https://arxiv.org/pdf/1106.1813.pdf) algorithm to deal with the unbalanced training dataset.
 * Hyper-parameter optimization based on grid search technique.
